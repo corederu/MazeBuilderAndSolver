@@ -2,6 +2,14 @@
 
 This project allows you to generate a maze and solve it.
 
+## Generation
+
+![Maze Generation](mazeBuilder.gif)
+
+## Solver
+
+![Maze solver](solver.gif)
+
 ## How does the generation work?
 
 A character starts at the starting point and advances randomly by breaking through walls. It can only break through if it doesn't create a new path between two existing paths (this ensures a unique solution to the maze). It continues like this until it reaches the exit.
